@@ -1,0 +1,29 @@
+
+*{
+    background-color: gainsboro;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+:root {
+    var: 
+}
+
+header {
+    display:flex;
+    text-align:center;
+    
+
+
+}
+
+.section {
+display: flex;
+border:2px; 
+}
+
+
+.contact-information {
+    font-size
+}
