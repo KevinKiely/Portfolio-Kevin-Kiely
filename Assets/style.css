@@ -1,9 +1,108 @@
 
 *{
-    background-color: gainsboro;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: silver;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
+    box-sizing:border-box;
+    margin: 2px;
+    padding: 2px;
 }
 
-:root
+
+.body {
+display:flex;
+flex-direction:column;
+justify-content: center;
+background-color:
+}
+
+
+.header {
+    font-size:200%;
+    text-align:left;
+    background-color: green
+}
+
+.navbar {
+    font-size:100%;
+    background-color: green;
+    color:white;
+    display:flex;
+    justify-content: end;
+}
+
+.article {
+    margin: 20px auto;
+    width: 95%;
+}
+
+.landscape {
+max-width:400px;
+float:left;
+border: 3px solid black;
+border-radius: 1px;
+margin-right: 7px;
+}
+
+.text-box {
+font-size: 150%;
+}
+
+.title {
+font-size:150%;
+}
+
+
+
+
+.projects {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: 16em;
+    border: 3px
+    border-color: black;
+    border-style: solid;
+
+}
+
+.project-one {
+    display:flex;
+    color: lightseagreen;
+    border: 3px black;
+    border-style:solid;
+
+
+}
+
+.project-two {
+    display:flex;
+    color: lightseagreen;
+    border: 3px black;
+    border-style:solid;
+}
+
+.project-three {
+    display: flex;
+    color: lightseagreen;
+    border: 3px black;
+    border-style:solid;
+}
+
+.project-four {
+    display: flex;
+    color: lightseagreen;
+    border: 3px black;
+    border-style:solid;
+}
+
+.project-five {
+    display: flex;
+    color: lightseagreen;
+    border: 3px black;
+    border-style:solid;
+}
+
