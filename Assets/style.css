@@ -74,7 +74,9 @@ font-size:150%;
     border: 3px black;
     border-style:solid;
 
-
+    background-image: url('./Project-1-placeholder.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project-two {
@@ -105,3 +107,19 @@ font-size:150%;
     border-style:solid;
 }
 
+/*
+.project-item {
+    width: 500px;
+    height: 500px;
+}
+*/
+.project-item {
+    width: 30%;
+    height: 500px; 
+}
+/*
+.project-item img {
+    width: 300px;
+    height: 300px 
+}
+*/
